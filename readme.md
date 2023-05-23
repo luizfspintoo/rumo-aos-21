@@ -1,6 +1,6 @@
 <h1 align="center">Rumo aos 21</h1>
 
-<p align="center">Baseado no jogo blackjack, rumo aos 21 é um jogo de onde o jogador tem que acumular 21 pontos para ser vencedor.
+<p align="center">Baseado no jogo blackjack, rumo aos 21 é um jogo onde o jogador tem que acumular 21 pontos para ser vencedor.
 <br/>
 
 
