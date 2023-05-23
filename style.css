@@ -1,0 +1,124 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  background-image: url(image/image-green.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(248, 180, 52);
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#msg {
+  font-style: italic;
+}
+
+p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.div-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+button {
+  width: 100%;
+  max-width: 280px;
+  border: none;
+  color: rgb(4, 94, 26);
+  border-radius: 0.2rem;
+  background-color: rgb(248, 180, 52);
+  padding: 0.7rem 4rem;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(4, 94, 26);
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  border-radius: 0.2rem;
+  margin: 4rem auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  color: rgb(3, 65, 18);
+}
+
+.modal-content > p {
+  font-size: 22px;
+  text-align: left;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#myBtn {
+  background-color: rgb(248, 180, 52);
+  position: absolute;
+  left: -100px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 80px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  left: -8px;
+}

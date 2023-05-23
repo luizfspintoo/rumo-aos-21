@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Game Blackjack</title>
+  </head>
+  <body>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2 id="title"></h2>
+        <p>
+          Seu objetivo é acumular 21 pontos, que são somados de acordo com o
+          valor de cada carta que você receber. No início, uma carta será
+          distribuída aleatoriamente e novas cartas serão adicionadas à sua mão.
+          Você deve somar o valor das cartas até alcançar 21 pontos, mas cuidado
+          para não ultrapassar essa pontuação, pois isso resultará em sua
+          derrota. Está pronto para jogar? Vamos lá!
+        </p>
+      </div>
+    </div>
+    <h1>Rumo aos 21</h1>
+    <p id="msg">Quer jogar uma rodada?</p>
+    <p id="cart">Cartas:</p>
+    <p id="som">Soma:</p>
+    <div class="div-btn">
+      <button id="cartInicial" onclick="startGame()">Jogar agora</button>
+      <button id="btnAddCart" onclick="newCart()">Nova carta</button>
+      <p id="player"></p>
+      <span id="myBtn">Ajuda?</span>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

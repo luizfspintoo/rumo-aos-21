@@ -1,0 +1,11 @@
+# 2° Projeto - App jogo cartas
+- Arrays
+- Objects
+- booleans
+- estrutura if e else
+- operadores de comparação >, <, >=, ==, !==
+- operadores lógicos E, OU e NOT (&&, ||, !)
+- loops com for
+- trabalhando com os métodos de objeto Math.() e Floor()
+- Função com retorno 
+- textContent
