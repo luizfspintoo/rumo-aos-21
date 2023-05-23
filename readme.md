@@ -9,7 +9,7 @@
 </p>
 
 ## Demo
-Aqui vai a URL do projeto
+https://rumoaos21.lzfelipe.dev/
 
 ## 🚀 Tecnologias
 
